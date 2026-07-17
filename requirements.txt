@@ -1,0 +1,16 @@
+# Trailhead Copilot workshop — student dependencies
+# Install in Colab / Databricks with:  pip install -r requirements.txt
+#
+# Versions are pinned loosely (>=) so the notebooks keep working as libraries update,
+# while avoiding known-too-old releases.
+
+anthropic>=0.40           # official Claude API SDK
+sentence-transformers>=3.0  # local text embeddings (no extra API key needed)
+faiss-cpu>=1.8            # fast similarity search over the embeddings
+pypdf>=4.0               # extract text from the PDF policy documents
+pandas>=2.0              # loading the business CSVs
+numpy>=1.24             # array math for embeddings/retrieval
+
+# --- Instructor-only (regenerating documents/pdf via scripts/generate_assets.py) ---
+# Students do NOT need these; the PDFs are already committed.
+#   pip install fpdf2 markdown
