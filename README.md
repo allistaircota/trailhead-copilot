@@ -35,17 +35,11 @@ You need two things:
 1. A **Google account** (to run notebooks in [Google Colab](https://colab.research.google.com/)).
 2. An **Anthropic API key** — create one at <https://console.anthropic.com/>.
 
-> 💸 **Cost:** The notebooks default to **Claude Haiku 4.5**, the most affordable model.
-> A full run-through of the workshop should cost **well under a dollar** in API usage.
-
 ## Running the notebooks
 
 **In Google Colab (recommended):** open a notebook from the `notebooks/` folder in Colab
 and run the cells top to bottom. The first cell installs everything and prompts for your
 API key (entered securely — it is never saved in the notebook).
-
-**In Databricks Free Edition:** import a notebook, attach it to a cluster, and run the
-setup cell. The same code works in both environments.
 
 ---
 
